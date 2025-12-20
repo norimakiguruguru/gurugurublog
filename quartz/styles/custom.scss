@@ -12,3 +12,21 @@ header h1 a {
   font-family: "Zen Kaku Gothic New", sans-serif !important;
   font-size: 1.1rem !important;
 }
+
+// 記事内の見出しを目立たせる
+article h1, article h2, article h3 {
+  padding: 0.5rem 0.8rem;
+  background-color: rgba(143, 159, 169, 0.08);
+  border-left: 4px solid #284b63;
+  border-bottom: 2px solid #284b63;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+article h4, article h5, article h6 {
+  padding: 0.3rem 0.6rem;
+  background-color: rgba(143, 159, 169, 0.05);
+  border-left: 3px solid #84a59d;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
