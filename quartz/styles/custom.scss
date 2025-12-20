@@ -1,3 +1,16 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// フォントサイズを2/3に縮小
+html {
+  font-size: 66.67%; // デフォルトの2/3
+}
+
+// 見出しのサイズも調整
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1.1rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.9rem; }

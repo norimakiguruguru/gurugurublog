@@ -16,15 +16,15 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "ja-JP",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "gurugurublog.pages.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "M PLUS Rounded 1c",
+        body: "M PLUS Rounded 1c",
         code: "IBM Plex Mono",
       },
       colors: {
