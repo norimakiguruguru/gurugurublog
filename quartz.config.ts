@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "切って、繋いで、ぐるぐるぐるぐる",
+    pageTitle: "切って、繋いで、ぐるぐるぐる",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
