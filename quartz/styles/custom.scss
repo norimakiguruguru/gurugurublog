@@ -31,3 +31,24 @@ article h4, article h5, article h6 {
   margin-top: 1.5rem;
   margin-bottom: 0.8rem;
 }
+
+// Quote callout: 最後の行を出典として右寄せ表示
+.callout[data-callout="quote"] .callout-content p:last-child {
+  font-style: italic;
+  text-align: right;
+  color: var(--gray);
+  font-size: 0.85em;
+  border-top: 1px solid var(--lightgray);
+  padding-top: 0.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0;
+}
+
+.callout[data-callout="quote"] .callout-content p:only-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+  text-align: left;
+  color: inherit;
+  font-size: inherit;
+}
